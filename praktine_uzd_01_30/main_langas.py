@@ -6,7 +6,7 @@ class Main_langas:
         self.langas = langas
         self.f_paeiska = Frame(self.langas)
         self.f_status = Frame(self.langas)
-        self.l_paieska = Label(self.f_paeiska, text="Iveskite ieskomo kliento arba pirkinio id")
+        self.l_paieska = Label(self.f_paeiska, text="Iveskite ieskomo kliento varda ir pavarde")
         self.e_paieska = Entry(self.f_paeiska, relief=SUNKEN, border=5)
         self.b_paieska = Button(self.f_paeiska, border=5, text="Enter", command=NONE) #TODO Ivesti komanda
         self.b_prideti = Button(self.f_paeiska, border=5, text="Add New", command=self.run_prideti_langas)
